@@ -1,0 +1,69 @@
+:root {
+    --body-bg-color: #FAF7FD;
+    --purple: #BB99DD;
+  }
+
+* {
+    margin: 0;
+    padding:0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--body-bg-color);
+    margin: 0px auto;
+    max-width: 600px;  
+    color: var(--purple);
+}
+ 
+section {  
+    margin-top: 25px;    
+    margin-bottom: 52px;
+}
+
+.usuario {
+    margin: 0px auto;
+    max-width: 213px;
+}
+
+.usuario img {
+    margin-bottom: 15px;
+    border: 1px solid; 
+    padding: 6px;
+    height: 213px;
+    width: 213px;
+    border-radius: 50%;
+}
+
+.usuario p {
+    text-align: center;
+    margin-bottom: 33px;
+}
+
+.link {
+    max-width: 326px;
+    margin: 0px auto;
+    margin-bottom: 16px;
+}
+
+.link button {
+    color: var(--purple);
+    background-color: var(--body-bg-color);
+    border: 1px solid var(--purple);
+    width: 326px;
+    height: 49px;
+    border-radius: 4px;
+}
+
+footer {
+    max-width: 200px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer img {
+    height: 24px;
+    width: 24px;  
+}
+
